@@ -93,7 +93,7 @@ const ArtHeroSection = () => {
                   <div className="text-gray-500">Weddings Documented</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">5 Years</div>
+                  <div className="text-3xl font-bold text-gray-900">5+ Years</div>
                   <div className="text-gray-500">Capturing Memories</div>
                 </div>
               </div>

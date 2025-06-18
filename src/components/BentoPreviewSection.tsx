@@ -8,7 +8,7 @@ const BentoPreviewSection = () => {
           <div className="md:col-span-2 lg:col-span-2 row-span-2">
             <div className="relative group overflow-hidden rounded-2xl h-full min-h-[400px]">
               <img 
-                src="/lovable-uploads/8d300c27-9744-477b-8922-0db4515bc7d1.png"
+                src="lovable-uploads/full-shot-couple-posing-wedding.jpg"
                 alt="Wedding celebration"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
@@ -18,7 +18,7 @@ const BentoPreviewSection = () => {
           {/* Smaller images */}
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/2d09c29f-9afb-4102-bcd6-1deac3f03601.png"
+              src="/lovable-uploads/low-angle-people-celebrating-wedding-nature.jpg"
               alt="Wedding moment"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -26,7 +26,7 @@ const BentoPreviewSection = () => {
 
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/f9568b0f-0057-412c-80cb-8b45c78b859f.png"
+              src="/lovable-uploads/michael-guertin-Qz0JbU7zCPM-unsplash.jpg"
               alt="Wedding celebration"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -34,7 +34,7 @@ const BentoPreviewSection = () => {
 
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/0387de82-8f1e-4f9c-8ca5-4fbf126adfe4.png"
+              src="/lovable-uploads/people-enjoying-burnt-orange-wedding.jpg"
               alt="Wedding moment"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
@@ -42,7 +42,7 @@ const BentoPreviewSection = () => {
 
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/8b538cf9-466c-4aa6-8836-ebe5b83c7d88.png"
+              src="/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes.jpg"
               alt="Wedding couple"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
