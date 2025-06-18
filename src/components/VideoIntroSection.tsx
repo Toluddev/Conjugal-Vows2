@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Instagram, Twitter, Facebook, Linkedin } from 'lucide-react';
+import bgvideo from '/lovable-uploads/bgvideo.mp4'
 
 const VideoIntroSection = () => {
   return (
@@ -14,7 +15,7 @@ const VideoIntroSection = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+         <source src={bgvideo} type="video/mp4" />
         {/* Fallback for browsers that don't support video */}
         <div className="absolute inset-0 bg-black"></div>
       </video>

@@ -1,6 +1,5 @@
-
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -14,6 +13,29 @@ const Navigation = () => {
     { name: 'Gallery', href: '/gallery' },
     { name: 'Contact', href: '/contact' }
   ];
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md">
@@ -21,8 +43,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Search className="w-5 h-5 text-gray-700" />
-            <span className="text-lg font-semibold text-gray-900">Qlick</span>
+              <Link to="/" className="text-white">
+              <img src="/lovable-uploads/Conjugal Vows_2.jpg-1.PNG" alt="Logo" className="h-20 w-25" />
+            </Link>
           </div>
 
           {/* Navigation Pills */}
