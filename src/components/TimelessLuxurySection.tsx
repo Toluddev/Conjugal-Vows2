@@ -30,7 +30,7 @@ const TimelessLuxurySection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative overflow-hidden rounded-2xl">
               <img 
-                src="/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes.jpg"
+                src="/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes (1).jpg"
                 alt="Wedding celebration"
                 className="w-full h-80 object-cover"
                 loading="lazy"
@@ -38,7 +38,7 @@ const TimelessLuxurySection = () => {
             </div>
             <div className="relative overflow-hidden rounded-2xl">
               <img 
-                src="lovable-uploads/full-shot-couple-posing-wedding.jpg"
+                src="lovable-uploads/full-shot-couple-posing-wedding.webp"
                 alt="Wedding moment"
                 className="w-full h-80 object-cover"
                 loading="lazy"

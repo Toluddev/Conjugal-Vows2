@@ -1,14 +1,14 @@
 
 const InstagramSection = () => {
   const images = [
-    "/lovable-uploads/people-enjoying-burnt-orange-wedding.jpg",
-    "/lovable-uploads/low-angle-people-celebrating-wedding-nature.jpg",
-    "/lovable-uploads/michael-guertin-Qz0JbU7zCPM-unsplash.jpg",
-    "/lovable-uploads/beautiful-woman-long-red-dress-walks-around-city-with-her-husband.jpg",
-    "/lovable-uploads/front-view-bride-groom-posing-outdoors.jpg",
-    "/lovable-uploads/full-shot-couple-posing-wedding.jpg",
-    "/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes.jpg",
-    "/lovable-uploads/lesbian-couple-celebrating-their-wedding-day-with-guests-friends.jpg"
+    "/lovable-uploads/people-enjoying-burnt-orange-wedding.webp",
+    "/lovable-uploads/low-angle-people-celebrating-wedding-nature.webp",
+    "lovable-uploads/michael-guertin-Qz0JbU7zCPM-unsplash (1).jpg",
+    "/lovable-uploads/beautiful-woman-long-red-dress-walks-around-city-with-her-husband.webp",
+    "/lovable-uploads/front-view-bride-groom-posing-outdoors.webp",
+    "/lovable-uploads/full-shot-couple-posing-wedding.webp",
+    "/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes (1).jpg",
+    "/lovable-uploads/lesbian-couple-celebrating-their-wedding-day-with-guests-friends.webp"
   ];
 
   return (
