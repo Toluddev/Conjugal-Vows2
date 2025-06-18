@@ -24,6 +24,9 @@ export default {
 				'serif': ['Playfair Display', 'serif'],
 				'monospace': ['Roboto Mono', 'monospace'],
 				'italianno': ['Italianno', 'cursive'],
+				'inter': ['Inter', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif'],
+				'dancing-script': ['Dancing Script', 'cursive']
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -77,11 +80,7 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
-			fontFamily: {
-				'inter': ['Inter', 'sans-serif'],
-				'poppins': ['Poppins', 'sans-serif'],
-				'dancing-script': ['Dancing Script', 'cursive']
-			},
+
 			// Remove all animations
 			animation: {},
 			keyframes: {}
