@@ -26,18 +26,20 @@ const VideoIntroSection = () => {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-white px-6">
         {/* Title */}
-        <p data-aos="fade-down" className="italic-script mb-2">ESTD 2025</p>
-        <h1 
-            data-aos="fade-right" 
-            className="font-serif text-white font-light tracking-wider mb-6 text-5xl sm:text-6xl md:text-8xl lg:text-8xl' "
-          >
-            CONJUGAL <br /> VOWS
-        </h1>
-        <h2 data-aos="fade-up"  className="elegant-heading text-xl md:text-2xl mb-4">Luxury, Intimate Destination Wedding Films</h2>
-        
-        <p data-aos="fade-up"  className=" font-serif text-gray-200 text-sm md:text-base tracking-wider uppercase mb-8 max-w-2xl mx-auto">
-          DOCUMENTING LOVE STORIES <br />WITHOUT BORDERS
-        </p>
+        <div className="relative z-20 text-center max-w-4xl px-6">
+            <p data-aos="fade-down" className="italic-script mb-2">ESTD 2025</p>
+            <h1 
+                data-aos="fade-right" 
+                className="font-serif text-white font-light tracking-wider mb-6 text-5xl sm:text-6xl md:text-8xl lg:text-8xl' "
+              >
+                CONJUGAL <br /> VOWS
+            </h1>
+            <h2 data-aos="fade-up"  className="elegant-heading text-xl md:text-2xl mb-4">Luxury, Intimate Destination Wedding Films</h2>
+            
+            <p data-aos="fade-up"  className=" font-serif text-gray-200 text-sm md:text-base tracking-wider uppercase mb-8 max-w-2xl mx-auto">
+              DOCUMENTING LOVE STORIES <br />WITHOUT BORDERS
+            </p>
+        </div>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-6 mb-16">
