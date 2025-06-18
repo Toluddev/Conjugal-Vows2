@@ -19,6 +19,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
+				'serif': ['Playfair Display', 'serif'],
+				'monospace': ['Roboto Mono', 'monospace'],
+				'italianno': ['Italianno', 'cursive'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -64,14 +70,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Custom Techpay colors
-				'pastel-purple': '#BBA8FF',
-				'pastel-pink': '#FAD2E1',
-				'pastel-blue': '#C2E9FB',
-				'soft-purple': '#8B5CF6',
-				'text-primary': '#1F2937',
-				'text-secondary': '#6B7280',
-				'card-bg': '#F8F9FB',
-				'border-soft': '#F4F4F5'
+		
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
