@@ -8,9 +8,10 @@ const BentoPreviewSection = () => {
           <div className="md:col-span-2 lg:col-span-2 row-span-2">
             <div className="relative group overflow-hidden rounded-2xl h-full min-h-[400px]">
               <img 
-                src="lovable-uploads/full-shot-couple-posing-wedding.jpg"
+                src="/lovable-uploads/full-shot-couple-posing-wedding.webp"
                 alt="Wedding celebration"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                loading="lazy"
               />
             </div>
           </div>
@@ -18,33 +19,37 @@ const BentoPreviewSection = () => {
           {/* Smaller images */}
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/low-angle-people-celebrating-wedding-nature.jpg"
+              src="/lovable-uploads/low-angle-people-celebrating-wedding-nature.webp"
               alt="Wedding moment"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
             />
           </div>
 
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/michael-guertin-Qz0JbU7zCPM-unsplash.jpg"
+              src="/lovable-uploads/michael-guertin-Qz0JbU7zCPM-unsplash (1).jpg"
               alt="Wedding celebration"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
             />
           </div>
 
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/people-enjoying-burnt-orange-wedding.jpg"
+              src="/lovable-uploads/people-enjoying-burnt-orange-wedding.webp"
               alt="Wedding moment"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
             />
           </div>
 
           <div className="relative group overflow-hidden rounded-2xl h-48">
             <img 
-              src="/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes.jpg"
+              src="/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes (1).jpg"
               alt="Wedding couple"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
             />
           </div>
         </div>

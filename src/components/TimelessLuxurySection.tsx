@@ -33,6 +33,7 @@ const TimelessLuxurySection = () => {
                 src="/lovable-uploads/romantic-black-couple-sitting-restaurant-wearing-elegant-clothes.jpg"
                 alt="Wedding celebration"
                 className="w-full h-80 object-cover"
+                loading="lazy"
               />
             </div>
             <div className="relative overflow-hidden rounded-2xl">
@@ -40,6 +41,7 @@ const TimelessLuxurySection = () => {
                 src="lovable-uploads/full-shot-couple-posing-wedding.jpg"
                 alt="Wedding moment"
                 className="w-full h-80 object-cover"
+                loading="lazy"
               />
             </div>
           </div>

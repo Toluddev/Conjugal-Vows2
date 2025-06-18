@@ -20,6 +20,7 @@ const InstagramSection = () => {
             <div key={index} className="aspect-square overflow-hidden">
               <img 
                 src={img}
+                loading="lazy"
                 alt={`Instagram ${index + 1}`}
                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />

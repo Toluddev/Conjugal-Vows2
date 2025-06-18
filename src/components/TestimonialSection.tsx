@@ -6,9 +6,10 @@ const TestimonialSection = () => {
     <section className="relative py-20 md:py-32 flex items-center justify-center bg-gray-900 overflow-hidden">
     {/* Background Image */}
     <img 
-      src="/lovable-uploads/beautiful-seaside-view-with-ocean.jpg" 
+      src="/lovable-uploads/beautiful-seaside-view-with-ocean (1).jpg" 
       alt="Ocean View" 
       className="absolute w-full h-full object-cover z-0"
+      loading="lazy"
     />
     
     {/* Overlay */}
