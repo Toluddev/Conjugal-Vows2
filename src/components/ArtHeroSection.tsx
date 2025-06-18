@@ -51,30 +51,27 @@ const ArtHeroSection = () => {
           <div className="lg:w-1/2 lg:pr-12 text-left">
             {/* Headline */}
             <div className="mb-8">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
-                The Art of Human Expression, Uncover
+              <h1 className="text-5xl text-shadow-custom lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
+                CONJUGAL <br /> VOWS
               </h1>
               
-              {/* Orange pill with tree icon */}
-              <div className="flex items-center mb-4">
-                <div className="bg-orange-400 text-white px-6 py-3 rounded-full flex items-center space-x-2">
-                  <TreePine className="w-5 h-5" />
-                </div>
-              </div>
+           
               
               <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                The <span className="font-dancing-script italic text-orange-400">Stories</span> Behind the Art
+                The <span className="font-dancing-script italic text-[#00afef]">Stories</span> Behind the Art
               </h2>
             </div>
 
             {/* Description */}
             <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
-              Discover new favorites among our diverse exhibitions. Uncover the stories and inspiration behind the art.
+            Explore timeless love stories captured across cultures. Discover the beauty, emotion, and connection that transcend borders.
             </p>
 
             {/* CTA Button */}
             <Button className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium mb-12">
-              Explore
+              <Link to="/gallery" className="flex items-center space-x-2">
+                Explore
+              </Link>
             </Button>
 
             {/* Statistics */}
