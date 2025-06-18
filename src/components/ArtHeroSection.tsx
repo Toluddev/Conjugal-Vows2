@@ -89,12 +89,12 @@ const ArtHeroSection = () => {
               {/* Metrics */}
               <div className="grid grid-cols-2 gap-8">
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">30K+</div>
-                  <div className="text-gray-500">Copies Sold</div>
+                  <div className="text-3xl font-bold text-gray-900">100+</div>
+                  <div className="text-gray-500">Weddings Documented</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">150K</div>
-                  <div className="text-gray-500">Monthly Visitors</div>
+                  <div className="text-3xl font-bold text-gray-900">5 Years</div>
+                  <div className="text-gray-500">Capturing Memories</div>
                 </div>
               </div>
             </div>
@@ -113,8 +113,8 @@ const ArtHeroSection = () => {
           <div className="lg:w-1/2 mt-16 lg:mt-0 relative">
             <div className="relative max-w-lg mx-auto">
               {/* Center large image */}
-              <div className="relative z-20 bg-white rounded-3xl shadow-2xl p-4 transform rotate-2">
-                <div className="w-80 h-80 rounded-2xl overflow-hidden">
+              <div className="relative z-20  bg-white rounded-3xl shadow-2xl p-3 transform rotate-6 ">
+                <div className="w-full h-full rounded-2xl overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=400&h=400&fit=crop"
                     alt="Modern architecture"
@@ -124,7 +124,7 @@ const ArtHeroSection = () => {
               </div>
 
               {/* Top right image */}
-              <div className="absolute -top-8 right-8 z-10 bg-white rounded-2xl shadow-xl p-3 transform -rotate-12">
+              <div className="absolute -top-20  right-3 z-40 bg-white rounded-2xl shadow-xl p-3 transform rotate-6">
                 <div className="w-32 h-32 rounded-xl overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=200&h=200&fit=crop"
@@ -135,8 +135,8 @@ const ArtHeroSection = () => {
               </div>
 
               {/* Bottom right image */}
-              <div className="absolute bottom-4 -right-4 z-10 bg-white rounded-2xl shadow-xl p-3 transform rotate-12">
-                <div className="w-28 h-36 rounded-xl overflow-hidden">
+              <div className="absolute bottom-4 -right-20 z-40 bg-white rounded-2xl shadow-xl p-3 transform rotate-12">
+                <div className="w-[220px] h-[200px] rounded-xl overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=200&h=250&fit=crop"
                     alt="Forest sunbeam"
@@ -146,8 +146,8 @@ const ArtHeroSection = () => {
               </div>
 
               {/* Bottom left image */}
-              <div className="absolute bottom-12 -left-8 z-10 bg-white rounded-2xl shadow-xl p-3 transform -rotate-6">
-                <div className="w-24 h-32 rounded-xl overflow-hidden">
+              <div className="absolute bottom-12 -left-8 z-40 bg-white rounded-2xl shadow-xl p-3 transform -rotate-6">
+                <div className="w-34 h-42 rounded-xl overflow-hidden">
                   <img 
                     src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=150&h=200&fit=crop"
                     alt="White building"
