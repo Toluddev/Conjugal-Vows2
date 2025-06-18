@@ -11,9 +11,10 @@ const ArtHeroSection = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center space-x-2">
-              <Search className="w-5 h-5 text-gray-700" />
-              <span className="text-lg font-semibold text-gray-900">Qlick</span>
+            <div className="flex items-center space-x-2 bg-black p-2 rounded-full">
+                <Link to="/" className="text-white">
+                    <img src="/lovable-uploads/Conjugal Vows_2.jpg-1.PNG" alt="Logo" className="h-20 w-25" />
+                </Link>
             </div>
 
             {/* Navigation Pills */}
