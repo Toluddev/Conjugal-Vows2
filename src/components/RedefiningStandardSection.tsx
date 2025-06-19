@@ -29,9 +29,10 @@ const RedefiningStandardSection = () => {
       <p className="text-gray-900  leading-relaxed mb-10 max-w-3xl mx-auto text-center text-[18px] sm:text-[15px] md:text-[18px] lg:text-[18px] ">
         We're visual storytellers who specialize in capturing the intersection of love, 
         style, and culture. Our approach goes beyond traditional wedding documentation 
+        
         to create cinematic experiences that reflect not just your special day,<br /> but the essence of your
         relationship itself.
-        
+
         
       </p>
       
