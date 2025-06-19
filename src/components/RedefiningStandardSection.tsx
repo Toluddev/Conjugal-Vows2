@@ -20,7 +20,6 @@ const RedefiningStandardSection = () => {
           muted
           playsInline
           className="w-full max-w-[800px] h-auto object-cover rounded-lg border-4 border-white shadow-lg"
-          
         >
           <source src={bgvideo} type="video/mp4" />
           Your browser does not support the video tag.
@@ -32,6 +31,7 @@ const RedefiningStandardSection = () => {
         style, and culture. Our approach goes beyond traditional wedding documentation 
         to create cinematic experiences that reflect not just your special day,<br /> but the essence of your
         relationship itself.
+        
         
       </p>
       
