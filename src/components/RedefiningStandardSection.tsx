@@ -9,7 +9,7 @@ const RedefiningStandardSection = () => {
       </div>
       
       <h2 data-aos="fade-down"  className="font-serif text-2xl md:text-3xl tracking-wide mb-2"> <em>REDEFINING  THE STANDARD</em></h2>
-      
+
       <h3 data-aos="fade-down"  className="font-serif text-3xl md:text-4xl tracking-wide uppercase mb-12">ONE WEDDING  FILM AT A TIME</h3>
       
       <div data-aos="fade-up" className="mb-12 flex justify-center">
@@ -20,6 +20,7 @@ const RedefiningStandardSection = () => {
           muted
           playsInline
           className="w-full max-w-[800px] h-auto object-cover rounded-lg border-4 border-white shadow-lg"
+          
         >
           <source src={bgvideo} type="video/mp4" />
           Your browser does not support the video tag.
