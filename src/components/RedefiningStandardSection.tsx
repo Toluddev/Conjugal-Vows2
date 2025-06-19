@@ -35,7 +35,6 @@ const RedefiningStandardSection = () => {
       
       <Link to="/about" className="inline-block border-b border-black text-black uppercase tracking-widest text-sm hover:text-gray-600 transition-colors">
         LEARN MORE
-
       </Link>
     </div>
   </section>
