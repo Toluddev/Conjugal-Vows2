@@ -23,7 +23,7 @@ const RedefiningStandardSection = () => {
         >
           <source src={bgvideo} type="video/mp4" />
           Your browser does not support the video tag.
-          
+
         </video>
       </div>
             
@@ -32,6 +32,7 @@ const RedefiningStandardSection = () => {
         style, and culture. Our approach goes beyond traditional wedding documentation 
         to create cinematic experiences that reflect not just your special day,<br /> but the essence of your
         relationship itself.
+        
       </p>
       
       <Link to="/about" className="inline-block border-b border-black text-black uppercase tracking-widest text-sm hover:text-gray-600 transition-colors">
