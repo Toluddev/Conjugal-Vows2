@@ -114,9 +114,9 @@ const ArtHeroSection = () => {
           <div className="relative max-w-lg mx-auto">
   {/* Center large image */}
   <div className="relative z-20 bg-white rounded-3xl shadow-2xl p-3 transform rotate-6">
-    <div className="w-full h-full rounded-2xl overflow-hidden">
+    <div className="w-full h-[500px] rounded-2xl overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=400&h=400&fit=crop"
+        src="/lovable-uploads/IMG_3248.webp"
         alt="Modern architecture"
         className="w-full h-auto object-cover"
       />
@@ -124,10 +124,10 @@ const ArtHeroSection = () => {
   </div>
 
   {/* Top right image */}
-  <div className="absolute -top-12 right-2 sm:-top-16 sm:right-4 lg:-top-20 lg:right-6 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-3 transform rotate-6">
+  <div className="absolute -top-12 right-2 sm:-top-16 sm:right-4 lg:-top-20 lg:right-6 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-1 transform rotate-6">
     <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-xl overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=200&h=200&fit=crop"
+        src="/lovable-uploads/IMG_3254.jpg"
         alt="Mountain landscape"
         className="w-full h-full object-cover"
       />
@@ -135,23 +135,23 @@ const ArtHeroSection = () => {
   </div>
 
   {/* Bottom right image */}
-  <div className="absolute bottom-2 -right-12 sm:bottom-4 sm:-right-16 lg:bottom-6 lg:-right-20 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-3 transform rotate-12">
+  <div className="absolute bottom-2 -right-12 sm:bottom-4 sm:-right-16 lg:bottom-6 lg:-right-20 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-1 transform rotate-12">
     <div className="w-40 h-36 sm:w-[200px] sm:h-[180px] md:w-[220px] md:h-[200px] rounded-xl overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=200&h=250&fit=crop"
+        src="/lovable-uploads/IMG_3255.jpg"
         alt="Forest sunbeam"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover object-center"
       />
     </div>
   </div>
 
   {/* Bottom left image */}
-  <div className="absolute bottom-6 -left-6 sm:bottom-10 sm:-left-8 lg:bottom-12 lg:-left-10 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-3 transform -rotate-6">
+  <div className="absolute bottom-6 -left-6 sm:bottom-10 sm:-left-8 lg:bottom-12 lg:-left-10 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-1 transform -rotate-6">
     <div className="w-24 h-32 sm:w-28 sm:h-36 md:w-32 md:h-40 rounded-xl overflow-hidden">
       <img 
-        src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=150&h=200&fit=crop"
+        src="/lovable-uploads/IMG_3249.webp"
         alt="White building"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-center object-cover"
       />
     </div>
   </div>
