@@ -113,12 +113,7 @@ const Contact = () => {
       <Navigation />
       
       <main>
-        {/* Hero Section with smaller logo
-        <HeroSection 
-          videoSrc="https://player.vimeo.com/progressive_redirect/playback/821680631/rendition/720p/file.mp4?loc=external&signature=68b0fb939c9642eba5c8cf63b233eb7e407d7b1bd84e0827f52599fcde77ae11" 
-          logoLarge={false}
-        />
-         */}
+  
         {/* Contact Content */}
         <section className="py-20 md:py-32 px-6 md:px-12 bg-white text-black">
           <div className="max-w-4xl mx-auto">
