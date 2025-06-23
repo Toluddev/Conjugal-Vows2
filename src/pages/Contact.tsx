@@ -113,7 +113,6 @@ const Contact = () => {
       <Navigation />
       
       <main>
-  
         {/* Contact Content */}
         <section className="py-20 md:py-32 px-6 md:px-12 bg-white text-black">
           <div className="max-w-4xl mx-auto">
