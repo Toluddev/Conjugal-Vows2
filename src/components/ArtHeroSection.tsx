@@ -6,44 +6,6 @@ import { Link } from 'react-router-dom';
 const ArtHeroSection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 relative overflow-hidden">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            {/* Logo */}
-            <div className="flex items-center space-x-2 bg-black p-2 rounded-full">
-                <Link to="/" className="text-white">
-                    <img src="/lovable-uploads/Conjugal Vows_2.jpg-1.PNG" alt="Logo" className="h-20 w-25" />
-                </Link>
-            </div>
-
-            {/* Navigation Pills */}
-            <div className="hidden md:flex items-center bg-gray-100 rounded-full p-1">
-              <Link to="/" className="px-6 py-2 rounded-full bg-black text-white text-sm font-medium">
-                Home
-              </Link>
-              <Link to="/photojournalism" className="px-6 py-2 rounded-full text-gray-600 hover:text-gray-900 text-sm font-medium">
-                Photojournalism
-              </Link>
-              <Link to="/about" className="px-6 py-2 rounded-full text-gray-600 hover:text-gray-900 text-sm font-medium">
-                About
-              </Link>
-              <Link to="/gallery" className="px-6 py-2 rounded-full text-gray-600 hover:text-gray-900 text-sm font-medium">
-                Gallery
-              </Link>
-              <Link to="/contact" className="px-6 py-2 rounded-full text-gray-600 hover:text-gray-900 text-sm font-medium">
-                Contact
-              </Link>
-            </div>
-
-            {/* CTA Button */}
-            <Button className="bg-black hover:bg-gray-800 text-white px-8 py-2 rounded-full font-medium">
-              Explore
-            </Button>
-          </div>
-        </div>
-      </nav>
-
       {/* Main Content */}
       <div className="container mx-auto px-6 pt-32 pb-16">
         <div className="flex flex-col lg:flex-row items-center min-h-[calc(100vh-8rem)]">
@@ -51,7 +13,7 @@ const ArtHeroSection = () => {
           <div className="lg:w-1/2 lg:pr-12 text-left">
             {/* Headline */}
             <div className="mb-8">
-              <h1 className="font-serif text-5xl text-shadow-custom lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
+              <h1 className="font-serif text-5xl text-shadow-custom lg:text-6xl font-bold text-gray-900 leading-tight mb-7">
                 CONJUGAL  VOWS
               </h1>
               
@@ -68,12 +30,18 @@ const ArtHeroSection = () => {
             </p>
 
             {/* CTA Button */}
-            <Button className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium mb-12">
-              <Link to="/gallery" className="flex items-center space-x-2">
-                Explore
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6">
+              <Link to="/gallery">
+                <Button className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium w-full sm:w-auto">
+                  View Gallery
+                </Button>
               </Link>
-            </Button>
-
+              <Link to="/contact">
+                <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white px-8 py-3 rounded-full font-medium w-full sm:w-auto">
+                  Get in Touch
+                </Button>
+              </Link>
+            </div>
             {/* Statistics */}
             <div className="space-y-6">
               {/* Reviews */}
@@ -91,6 +59,7 @@ const ArtHeroSection = () => {
                 <div>
                   <div className="text-3xl font-bold text-gray-900">100+</div>
                   <div className="text-gray-500">Weddings Documented</div>
+                  
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">5+ Years</div>
