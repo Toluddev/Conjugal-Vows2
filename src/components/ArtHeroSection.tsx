@@ -1,36 +1,30 @@
-
 import { Button } from '@/components/ui/button';
-import { Search, Instagram, Facebook, Twitter, Linkedin, Youtube, TreePine } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Linkedin, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const ArtHeroSection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 relative overflow-hidden">
       {/* Main Content */}
-      <div className="container mx-auto px-6 pt-32 pb-16">
+      <div className="max-w-[1920px] mx-auto px-6 2xl:px-24 pt-32 pb-16">
         <div className="flex flex-col lg:flex-row items-center min-h-[calc(100vh-8rem)]">
-          {/* Left Column - Content */}
-          <div className="lg:w-1/2 lg:pr-12 text-left">
-            {/* Headline */}
-            <div className="mb-8">
-              <h1 className="font-serif text-5xl text-shadow-custom lg:text-6xl font-bold text-gray-900 leading-tight mb-7">
-                CONJUGAL  VOWS
+          {/* Left Column */}
+          <div className="lg:w-1/2 lg:pr-16 text-left space-y-8">
+            <div>
+              <h1 className="font-serif text-5xl xl:text-6xl 2xl:text-7xl font-bold text-gray-900 leading-tight mb-4 text-shadow-custom">
+                CONJUGAL VOWS
               </h1>
-              
-           
-              
-              <h2 className="text-5xl lg:text-5xl font-bold text-gray-900 leading-tight">
+              <h2 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold text-gray-900 leading-tight">
                 The <span className="font-dancing-script italic text-[#00afef]">Stories</span> Behind the Vows
               </h2>
             </div>
 
-            {/* Description */}
-            <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
-            Explore timeless love stories captured across cultures. Discover the beauty, emotion, and connection that transcend borders.
+            <p className="text-lg xl:text-xl 2xl:text-2xl text-gray-600 max-w-2xl leading-relaxed">
+              Explore timeless love stories captured across cultures. Discover the beauty, emotion, and connection that transcend borders.
             </p>
 
-            {/* CTA Button */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6">
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-start">
               <Link to="/gallery">
                 <Button className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium w-full sm:w-auto">
                   View Gallery
@@ -42,11 +36,11 @@ const ArtHeroSection = () => {
                 </Button>
               </Link>
             </div>
+
             {/* Statistics */}
-            <div className="space-y-6">
-              {/* Reviews */}
+            <div className="space-y-6 pt-4">
               <div className="flex items-center space-x-3">
-                <span className="text-lg font-semibold text-gray-900">500+ Reviews</span>
+                <span className="text-lg xl:text-xl font-semibold text-gray-900">500+ Reviews</span>
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <span key={i} className="text-yellow-400 text-lg">★</span>
@@ -54,22 +48,20 @@ const ArtHeroSection = () => {
                 </div>
               </div>
 
-              {/* Metrics */}
-              <div className="grid grid-cols-2 gap-8">
+              <div className="grid grid-cols-2 gap-8 max-w-sm">
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">100+</div>
+                  <div className="text-3xl xl:text-4xl font-bold text-gray-900">100+</div>
                   <div className="text-gray-500">Weddings Documented</div>
-                  
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">5+ Years</div>
+                  <div className="text-3xl xl:text-4xl font-bold text-gray-900">5+ Years</div>
                   <div className="text-gray-500">Capturing Memories</div>
                 </div>
               </div>
             </div>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 mt-12">
+            <div className="flex space-x-4 mt-10">
               <Facebook className="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer" />
               <Instagram className="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer" />
               <Twitter className="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer" />
@@ -79,53 +71,54 @@ const ArtHeroSection = () => {
           </div>
 
           {/* Right Column - Image Cluster */}
-          <div className="lg:w-1/2 mt-16 lg:mt-0 relative">
-          <div className="relative max-w-lg mx-auto">
-  {/* Center large image */}
-  <div className="relative z-20 bg-white rounded-3xl shadow-2xl p-3 transform rotate-6">
-    <div className="w-full h-[500px] rounded-2xl overflow-hidden">
-      <img 
-        src="/lovable-uploads/IMG_3248.webp"
-        alt="Modern architecture"
-        className="w-full h-auto object-cover"
-      />
-    </div>
-  </div>
+          <div className="lg:w-1/2 mt-20 lg:mt-0 relative flex justify-center">
+            <div className="relative max-w-xl">
+              {/* Large Center Image */}
+              <div className="relative z-20 bg-white rounded-3xl shadow-2xl p-3 transform rotate-6">
+                <div className="w-full h-[500px] xl:h-[600px] rounded-2xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/IMG_3248.webp"
+                    alt="Modern architecture"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
 
-  {/* Top right image */}
-  <div className="absolute -top-12 right-2 sm:-top-16 sm:right-4 lg:-top-20 lg:right-6 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-1 transform rotate-6">
-    <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-xl overflow-hidden">
-      <img 
-        src="/lovable-uploads/IMG_3254.jpg"
-        alt="Mountain landscape"
-        className="w-full h-full object-cover"
-      />
-    </div>
-  </div>
+              {/* Top Right */}
+              <div className="absolute -top-16 right-0 z-40 bg-white rounded-2xl shadow-xl p-2 transform rotate-6">
+                <div className="w-28 h-28 xl:w-36 xl:h-36 rounded-xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/IMG_3254.jpg"
+                    alt="Mountain landscape"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
 
-  {/* Bottom right image */}
-  <div className="absolute bottom-2 -right-12 sm:bottom-4 sm:-right-16 lg:bottom-6 lg:-right-20 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-1 transform rotate-12">
-    <div className="w-40 h-36 sm:w-[200px] sm:h-[180px] md:w-[220px] md:h-[200px] rounded-xl overflow-hidden">
-      <img 
-        src="/lovable-uploads/IMG_3255.jpg"
-        alt="Forest sunbeam"
-        className="w-full h-full object-cover object-center"
-      />
-    </div>
-  </div>
+              {/* Bottom Right */}
+              <div className="absolute bottom-4 -right-16 z-40 bg-white rounded-2xl shadow-xl p-2 transform rotate-12">
+                <div className="w-[200px] h-[180px] xl:w-[240px] xl:h-[210px] rounded-xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/IMG_3255.jpg"
+                    alt="Forest sunbeam"
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
 
-  {/* Bottom left image */}
-  <div className="absolute bottom-6 -left-6 sm:bottom-10 sm:-left-8 lg:bottom-12 lg:-left-10 z-40 bg-white rounded-2xl shadow-xl p-2 sm:p-1 transform -rotate-6">
-    <div className="w-24 h-32 sm:w-28 sm:h-36 md:w-32 md:h-40 rounded-xl overflow-hidden">
-      <img 
-        src="/lovable-uploads/IMG_3249.webp"
-        alt="White building"
-        className="w-full h-full object-center object-cover"
-      />
-    </div>
-  </div>
-</div>
+              {/* Bottom Left */}
+              <div className="absolute bottom-8 -left-10 z-40 bg-white rounded-2xl shadow-xl p-2 transform -rotate-6">
+                <div className="w-28 h-36 xl:w-32 xl:h-40 rounded-xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/IMG_3249.webp"
+                    alt="White building"
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
