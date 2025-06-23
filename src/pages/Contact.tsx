@@ -122,7 +122,6 @@ const Contact = () => {
 
               <div className="flex border border-gray-300">
                 <button
-                
                   onClick={() => setUserType('couples')}
                   className={`px-8 py-3 text-sm font-medium transition-colors ${
                     userType === 'couples' 
