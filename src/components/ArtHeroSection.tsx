@@ -130,7 +130,7 @@ const ArtHeroSection = () => {
         src="/lovable-uploads/IMG_3254.jpg"
         alt="Mountain landscape"
         className="w-full h-full object-cover"
-        
+
       />
     </div>
   </div>
@@ -142,7 +142,6 @@ const ArtHeroSection = () => {
         src="/lovable-uploads/IMG_3255.jpg"
         alt="Forest sunbeam"
         className="w-full h-full object-cover object-center"
-
       />
     </div>
   </div>
