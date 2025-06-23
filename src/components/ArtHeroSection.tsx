@@ -152,7 +152,6 @@ const ArtHeroSection = () => {
         src="/lovable-uploads/IMG_3249.webp"
         alt="White building"
         className="w-full h-full object-center object-cover"
-        
       />
     </div>
   </div>
