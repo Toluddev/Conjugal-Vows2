@@ -90,7 +90,9 @@ const ArtHeroSection = () => {
               <div className="grid grid-cols-2 gap-8">
                 <div>
                   <div className="text-3xl font-bold text-gray-900">100+</div>
+                  
                   <div className="text-gray-500">Weddings Documented</div>
+
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">5+ Years</div>
