@@ -521,7 +521,6 @@ const Contact = () => {
                     <p className="text-gray-600 text-sm mb-2">CONTACT</p>
                     <p className="text-black font-medium">
                       contact@conjugalvows.com<br />
-                      
                       +1 (555) 123-4567
                     </p>
                   </div>
