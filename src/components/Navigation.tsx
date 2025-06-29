@@ -31,11 +31,12 @@ const Navigation = () => {
             <div className="flex items-center space-x-2 p-2">
                 <Link to="/" className="text-white">
                     <img src="/lovable-uploads/Conjugal Vows_2.jpg.png" alt="Logo" className="h-20 w-25" />
-                    
+
                 </Link>
             </div>
             {/* Navigation Pills - Hidden on mobile */}
             <div className="hidden md:flex items-center bg-gray-100 rounded-full p-1">
+              
               {navItems.map((item) => (
                 <Link 
                   key={item.name}
