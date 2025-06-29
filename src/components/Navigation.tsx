@@ -36,7 +36,6 @@ const Navigation = () => {
             </div>
             {/* Navigation Pills - Hidden on mobile */}
             <div className="hidden md:flex items-center bg-gray-100 rounded-full p-1">
-              
               {navItems.map((item) => (
                 <Link 
                   key={item.name}
