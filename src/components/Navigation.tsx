@@ -28,9 +28,9 @@ const Navigation = () => {
         <div className="container mx-auto px-4 lg:px-6 py-4">
           <div className="flex items-center justify-between">
             {/* Logo - Hidden on mobile, visible on desktop */}
-            <div className="flex items-center space-x-2 bg-black p-2 rounded-full">
+            <div className="flex items-center space-x-2 p-2">
                 <Link to="/" className="text-white">
-                    <img src="/lovable-uploads/Conjugal Vows_2.jpg-1.PNG" alt="Logo" className="h-20 w-25" />
+                    <img src="/lovable-uploads/Conjugal Vows_2.jpg.png" alt="Logo" className="h-20 w-25" />
                 </Link>
             </div>
             {/* Navigation Pills - Hidden on mobile */}
