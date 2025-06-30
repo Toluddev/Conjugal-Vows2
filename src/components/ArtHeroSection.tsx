@@ -27,6 +27,7 @@ const ArtHeroSection = () => {
             {/* Description */}
             <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
             Explore timeless love stories captured across cultures. Discover the beauty, emotion, and connection that transcend borders.
+            
             </p>
 
             {/* CTA Button */}
