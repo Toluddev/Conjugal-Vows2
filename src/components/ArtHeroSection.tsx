@@ -34,7 +34,6 @@ const ArtHeroSection = () => {
               <Link to="/gallery">
                 <Button className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium w-full sm:w-auto">
                   View Gallery
-                  
                 </Button>
               </Link>
               <Link to="/contact">
