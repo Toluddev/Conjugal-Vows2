@@ -16,9 +16,6 @@ const ArtHeroSection = () => {
               <h1 className="font-serif text-5xl text-shadow-custom lg:text-6xl font-bold text-gray-900 leading-tight mb-7">
                 CONJUGAL  VOWS
               </h1>
-              
-           
-              
               <h2 className="text-5xl lg:text-5xl font-bold text-gray-900 leading-tight">
                 The <span className="font-dancing-script italic text-[#00afef]">Stories</span> Behind the Vows
               </h2>
